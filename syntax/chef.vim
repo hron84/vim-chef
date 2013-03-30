@@ -1,3 +1,8 @@
+if version < 600
+    syntax clear
+endif
+
+runtime syntax/ruby.vim
 
 syn keyword chefBlock file contained
 syn keyword chefBlock remote_file contained
